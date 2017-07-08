@@ -5,7 +5,7 @@ package chapter1;
  */
 public class ConcurrencyTest {
 
-    private static final long count = 1000000001;
+    private static final long count = 10000000000L;
 
     public static void main(String[] args) throws InterruptedException {
         concurrency();
